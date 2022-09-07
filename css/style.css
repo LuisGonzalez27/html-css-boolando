@@ -192,3 +192,39 @@ main {
 .col:hover .lontano {
     display: inline-block;
 }
+
+/* footer */
+.flex-footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 80%;
+    margin: 0 auto;
+    padding: 30px 0;
+    color: var(--background);
+}
+
+.info span {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.info-link {
+    margin-top: 5px;
+}
+
+.info-link a {
+    color: var(--background);
+    margin-right: 15px;
+    text-decoration: none;
+}
+
+.info-dx span {
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.icone-social {
+    font-size: 20px;
+    padding: 10px 0;
+}
