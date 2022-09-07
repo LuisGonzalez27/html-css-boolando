@@ -86,6 +86,7 @@ main {
 .col {
     width: calc(100% / 3);
     position: relative;
+    cursor: pointer;
 }
 
 .col img {
@@ -177,4 +178,17 @@ main {
 .heart:hover {
     cursor: pointer;
     color: var(--like);
+}
+
+/* hover sulla col */
+.lontano {
+    display: none;
+}
+
+.col:hover .vicino {
+    display: none;
+}
+
+.col:hover .lontano {
+    display: inline-block;
 }
