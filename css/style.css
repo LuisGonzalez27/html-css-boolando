@@ -22,3 +22,42 @@ main {
 footer {
     background-color: #191919;
 }
+
+/* start header content*/
+.contnav {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* nav */
+.logo {
+    height: 30px;
+}
+
+li {
+    list-style: none;
+}
+
+li a {
+    text-decoration: none;
+    color: white;
+}
+
+/* star flexbox */
+.flexnav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header nav.contnav {
+    padding: 15px 0;
+}
+
+.genere {
+    min-width: 150px;
+}
+
+.icone {
+    min-width: 60px;
+}
