@@ -67,6 +67,11 @@ li a {
     margin-right: 15px;
 }
 
+li a:hover {
+    text-decoration: underline;
+    color: var(--footer);
+}
+
 /* start flexbox */
 .flexnav {
     display: flex;
@@ -233,4 +238,18 @@ main {
 .icone-social {
     font-size: 20px;
     padding: 10px 0;
+    cursor: pointer;
+}
+
+.icone-social i {
+    margin-right: 8px;
+}
+
+.info-link a:hover {
+    text-decoration: underline;
+    color: var(--header);
+}
+
+.icone-social i:hover {
+    color: var(--header);
 }
