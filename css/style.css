@@ -15,6 +15,8 @@
     --background: #ffffff;
     --header: #ff6808;
     --footer: #191919;
+    --discount: red;
+    --sost: green;
 }
 
 /* background-color sections */
@@ -102,4 +104,30 @@ main {
     text-align: center;
     font-size: 30px;
     background-color: var(--background);
+}
+
+/* label discount */
+.label {
+    position: absolute;
+    bottom: 50px;
+    left: 0;
+    color: var(--background);
+    width: 50px;
+    text-align: center;
+    font-size: 15px;
+    background-color: var(--discount);
+    padding: 5px 0;
+}
+
+/* label sostenibilita*/
+.label-sost {
+    position: absolute;
+    bottom: 50px;
+    left: 55px;
+    color: var(--background);
+    width: 100px;
+    text-align: center;
+    font-size: 15px;
+    background-color: var(--sost);
+    padding: 5px 0;
 }
