@@ -43,7 +43,7 @@ li a {
     color: white;
 }
 
-/* star flexbox */
+/* start flexbox */
 .flexnav {
     display: flex;
     justify-content: space-between;
@@ -60,4 +60,26 @@ header nav.contnav {
 
 .icone {
     min-width: 60px;
+}
+
+/* start main */
+main {
+    width: 80%;
+    margin: 50px auto;
+}
+
+.row-flex {
+    display: flex;
+}
+
+.col {
+    width: calc(100% / 3);
+}
+
+.col img {
+    width: 100%;
+}
+
+.margin {
+    margin: 0 25px;
 }
