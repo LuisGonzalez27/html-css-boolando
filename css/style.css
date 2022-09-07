@@ -131,3 +131,28 @@ main {
     background-color: var(--sost);
     padding: 5px 0;
 }
+
+.descr {
+    position: absolute;
+    bottom: -50px;
+    left: 0
+}
+.brand {
+    font-size: 12px;
+}
+
+.descr-text {
+    font-size: 16px;
+    font-weight: bold;
+
+}
+.prezzo {
+    font-size: 14px;
+    font-weight: bold;
+    color: var(--discount);
+}
+
+.prezzo-prima {
+    font-size: 14px;
+    text-decoration: line-through;
+}
