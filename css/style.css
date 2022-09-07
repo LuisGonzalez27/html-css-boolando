@@ -10,17 +10,24 @@
     min-height: 100px;
 }
 
+:root {
+    --heart: black;
+    --background: #ffffff;
+    --header: #ff6808;
+    --footer: #191919;
+}
+
 /* background-color sections */
 header {
-    background-color: #ff6808;
+    background-color: var(--header);
 }
 
 main {
-    background-color: #ffffff;  
+    background-color: var(--white);  
 }
 
 footer {
-    background-color: #191919;
+    background-color: var(--footer);
 }
 
 /* start header content*/
@@ -74,6 +81,7 @@ main {
 
 .col {
     width: calc(100% / 3);
+    position: relative;
 }
 
 .col img {
@@ -82,4 +90,16 @@ main {
 
 .margin {
     margin: 0 25px;
+}
+
+/* symbol heart */
+.heart {
+    position: absolute;
+    top: 10px;
+    right: 0;
+    color: var(--heart);
+    width: 40px;
+    text-align: center;
+    font-size: 30px;
+    background-color: var(--background);
 }
