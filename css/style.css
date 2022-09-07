@@ -20,6 +20,10 @@
     --like: red;
 }
 
+html {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 /* background-color sections */
 header {
     background-color: var(--header);
@@ -39,6 +43,15 @@ footer {
     margin: 0 auto;
 }
 
+.fixed {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
 /* nav */
 .logo {
     height: 30px;
@@ -51,6 +64,7 @@ li {
 li a {
     text-decoration: none;
     color: white;
+    margin-right: 15px;
 }
 
 /* start flexbox */
@@ -64,18 +78,10 @@ header nav.contnav {
     padding: 15px 0;
 }
 
-.genere {
-    min-width: 150px;
-}
-
-.icone {
-    min-width: 60px;
-}
-
 /* start main */
 main {
     width: 80%;
-    margin: 50px auto;
+    margin: 100px auto;
 }
 
 .row-flex {
