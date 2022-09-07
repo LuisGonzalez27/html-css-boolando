@@ -79,6 +79,7 @@ main {
 
 .row-flex {
     display: flex;
+    margin-bottom: 100px;
 }
 
 .col {
@@ -132,6 +133,7 @@ main {
     padding: 5px 0;
 }
 
+/* description */
 .descr {
     position: absolute;
     bottom: -50px;
@@ -146,6 +148,7 @@ main {
     font-weight: bold;
 
 }
+/* price */
 .prezzo {
     font-size: 14px;
     font-weight: bold;
@@ -155,4 +158,16 @@ main {
 .prezzo-prima {
     font-size: 14px;
     text-decoration: line-through;
+}
+
+.label-sost2 {
+    position: absolute;
+    bottom: 50px;
+    left: 0px;
+    color: var(--background);
+    width: 100px;
+    text-align: center;
+    font-size: 15px;
+    background-color: var(--sost);
+    padding: 5px 0;
 }
